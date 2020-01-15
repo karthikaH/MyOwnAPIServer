@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+# build output
+dist
+
+DS_Store
+
+*.log
+*.error
