@@ -1,2 +1,1 @@
-# MyOwnAPIServer
-A node JS server
+# API Design in Node JS

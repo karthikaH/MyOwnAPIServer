@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "start": "node src/index.js",
+    "start": "node dist/index.js",
     "restart": "rimraf dist && npm run build && npm run start",
     "dev": "nodemon --exec npm run restart"
   },
@@ -22,5 +22,9 @@
     "nodemon": "^2.0.2",
     "prettier": "1.19.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
