@@ -24,6 +24,6 @@ app.get('/', (req, res) => {
 
 export const startServer = () => {
   app.listen(3001, () => {
-    console.log(`REST API on http://localhost:3001/`);
+    console.log(`REST API on http://0.0.0.0:3001/`);
   });
 };
